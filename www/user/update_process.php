@@ -3,6 +3,8 @@
 require_once dirname(__DIR__) . '/bootstrap/app.php';
 
 if (!isset($_SESSION['user']) || !is_array($_SESSION['user'])) {
+    echo 'sadfasdf';
+    exit;
     header('Location: /www/auth/login.php');
     exit;
 }
