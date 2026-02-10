@@ -1,5 +1,5 @@
 <?php
-
+    require_once dirname(__DIR__) . '/mono.php';
     require_once dirname(__DIR__) . '/bootstrap/app.php';
 
     $_SESSION['CSRF_TOKEN'] = bin2hex(random_bytes(32));

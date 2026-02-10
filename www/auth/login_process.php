@@ -2,7 +2,7 @@
 
 require_once dirname(__DIR__) . '/bootstrap/app.php';
 
-$email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL, FILTER_SANITIZE_EMAIL);
+$email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL, FILTER_SANITIZE_EMAIL);    
 $password = filter_input(INPUT_POST, 'password');
 $token = filter_input(INPUT_POST, 'token');
 

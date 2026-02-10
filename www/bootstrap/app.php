@@ -21,6 +21,7 @@ register_shutdown_function(function() {
     }
 });
 
+
 // Session
 ini_set('session.gc_maxlifetime',1440);
 session_set_cookie_params(1440);
