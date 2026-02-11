@@ -30,7 +30,7 @@ function reject($code)
         case 404:
             return header('HTTP/1.1 404 NOT FOUND');
         default:
-            return header('Location: {$_SERVER[HTTP_REFERER')    
+            return header('Location: {$_SERVER[HTTP_REFERER');
     }
 }
 
